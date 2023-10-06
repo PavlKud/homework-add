@@ -104,3 +104,63 @@ margin-right: 40px;
     font-weight: 700;
     line-height: 1.52;
 }
+
+/*--------- price ------------*/
+
+.price {
+}
+.container {
+}
+.price-title {
+color: #2E363E;
+text-align: center;
+font-size: 36px;
+line-height: 1.33; 
+}
+
+.price-list {
+}
+.price-item {
+}
+.price-image {
+}
+.price-subtitle {
+color:#2E363E;
+font-size: 27px;
+line-height: 1.10;
+}
+.price-cost {
+color: #434B53;
+font-size: 24px;
+font-style: italic;
+font-weight: 600;
+line-height: 1.1;
+}
+.price-article {
+    color: #2E363E;   
+    font-size: 16px;    
+    line-height: 1.1;
+
+}
+
+.price-span{
+font-weight: 600;
+}
+.price-fast {
+color: #2E363E;
+font-size: 16px;
+line-height: 1.1;
+}
+.price-text {
+color: #2E363E;
+font-size: 16px;
+line-height: 1.4;
+}
+.price-btn {
+    color: #5F0A61;
+font-family: Inter;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.1; 
+}
