@@ -1,9 +1,9 @@
 body {
-    font-family: 'Inter', sans-serif;
-    /* font-family: 'Montserrat', sans-serif;
+  font-family: "Inter", sans-serif;
+  /* font-family: 'Montserrat', sans-serif;
         font-family: 'Reem Kufi', sans-serif; */
-    background-color: #fff;
-    color: #434B53;
+  background-color: #fff;
+  color: #434b53;
 }
 
 h1,
@@ -13,68 +13,68 @@ h4,
 h5,
 h6,
 p {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 img {
-    display: block;
+  display: block;
 }
 
 ul,
 ol {
-    list-style: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 button {
-    cursor: pointer;
-    border: none;
+  cursor: pointer;
+  border: none;
 }
 
 address {
-    font-style: normal;
+  font-style: normal;
 }
-
 
 /* ------header------- */
 .container {
-    max-width: 1208px;
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
+  max-width: 1208px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .header {
-    border-bottom: 1px solid #5F0A61;
+  border-bottom: 1px solid #5f0a61;
 }
 
 .container-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-logo {
-    color: #5F0A61;
-    font-family: Reem Kufi, sans-serif;
-    font-size: 25px;
-    line-height: 1.5;
-    text-transform: uppercase;
+  color: #5f0a61;
+  font-family: Reem Kufi, sans-serif;
+  font-size: 25px;
+  line-height: 1.5;
+  text-transform: uppercase;
 }
 
-.header-nav {}
+.header-nav {
+}
 
 .header-list {
-    display: flex;
-    gap: 40px;
+  display: flex;
+  gap: 40px;
 }
 
 /* .header-item:not(:last-child) {
@@ -82,85 +82,123 @@ margin-right: 40px;
 } */
 
 .header-link {
-    color: #2E363E;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 1.5;
-    padding: 55px 0;
-    display: block;
+  color: #2e363e;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 55px 0;
+  display: block;
 }
 
 .header-link:hover,
 .header-link:focus {
-    color: #5F0A61;
+  color: #5f0a61;
 }
 
-.header-address {}
+.header-address {
+}
 
 .header-tel-link {
-    color: #5F0A61;
-    text-align: right;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.52;
+  color: #5f0a61;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.52;
 }
 
 /*--------- price ------------*/
 
 .price {
-}
-.container {
-}
-.price-title {
-color: #2E363E;
-text-align: center;
-font-size: 36px;
-line-height: 1.33; 
+  padding-top: 60px;
+  padding-bottom: 179px;
 }
 
+.price-title {
+  color: #2e363e;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.33;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 55px;
+}
+.subtitle-price {
+    display: flex;
+    align-items: baseline;
+    justify-content: left;
+    
+}
+
+
 .price-list {
+ 
 }
 .price-item {
 }
+.price-container{
+  margin-bottom: 41px;
+  padding: 68px 72px 85px 0px;
+
+
+
+
+background-color: #FAFAFA;;
+}
 .price-image {
+   /* margin-right: 62px; */
 }
 .price-subtitle {
-color:#2E363E;
-font-size: 27px;
-line-height: 1.10;
+  color: #2e363e;
+  font-size: 27px;
+  line-height: 1.1;
+  margin-right: 60px;
 }
 .price-cost {
-color: #434B53;
-font-size: 24px;
-font-style: italic;
-font-weight: 600;
-line-height: 1.1;
+  color: #434b53;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 13px;
 }
 .price-article {
-    color: #2E363E;   
-    font-size: 16px;    
-    line-height: 1.1;
-
+  color: #2e363e;
+  font-size: 16px;
+  line-height: 1.1;
+  margin-bottom: 13px;
 }
 
-.price-span{
-font-weight: 600;
+.price-span {
+  font-weight: 600;
 }
 .price-fast {
-color: #2E363E;
-font-size: 16px;
-line-height: 1.1;
+  color: #2e363e;
+  font-size: 16px;
+  line-height: 1.1;
+  margin-bottom: 13px;
 }
 .price-text {
-color: #2E363E;
-font-size: 16px;
-line-height: 1.4;
+  color: #2e363e;
+  font-size: 16px;
+  line-height: 1.4;
 }
 .price-btn {
-    color: #5F0A61;
-font-family: Inter;
-font-size: 17px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.1; 
+  color: #5f0a61;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.1;
+  
+}
+
+.price-block-text{
+    max-width: 676px;   
+    
+}
+.price-block {
+  display: flex;
+align-items: center;
+justify-content: space-between;
+
 }

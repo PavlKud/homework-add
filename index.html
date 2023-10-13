@@ -15,22 +15,30 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-     <div class="container container-header">
-        <a class="header-logo href="./index.html">World.Net</a>
+    <header  class="header">
+      <div class="container container-header">
+        <a class="header-logo" href="./index.html">World.Net</a>
         <nav class="header-nav">
           <ul class="header-list">
-            <li class=""><a class="header-link" href="./index.html">Home</a></li>
+            <li class="">
+              <a class="header-link" href="./index.html">Home</a>
+            </li>
             <li class=""><a class="header-link" href="#about">About</a></li>
             <li class=""><a class="header-link" href="#reviews">Reviews</a></li>
-            <li class=""><a class="header-link" href="./tarif.html">Tarrifs</a></li>
-            <li class=""><a class="header-link" href="#contact">Contacts</a></li>
+            <li class="">
+              <a class="header-link" href="./tarif.html">Tarrifs</a>
+            </li>
+            <li class="">
+              <a class="header-link" href="#contact">Contacts</a>
+            </li>
           </ul>
         </nav>
         <address class="header-address">
-          <a class="header-tel-link" href="tel:+88006549732">8 (800) 654-97-32</a>
+          <a class="header-tel-link" href="tel:+88006549732"
+            >8 (800) 654-97-32</a
+          >
         </address>
-     </div>
+      </div>
     </header>
 
     <main>
@@ -38,87 +46,124 @@
         <div class="container">
           <h1 class="price-title">Tariff offers</h1>
           <ul class="price-list">
-            <li class="price-item">
-              <img class="price-image"
-                src="./images/woomen.jpg"
-                alt="standart"
-                width="375"
-                height="340"
-              />
-              <h2 class="price-subtitle">Standart</h2>
-              <p class="price-cost">$20/month</p>
-              <p class="price-article">The connection is always st</p>
-              <p class="price-fast">Speed of <span class="price-span">100</span> Mbit / s</p>
-              <p class="price-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-                scelerisque, neque eu pulvinar elementum, mauris nibh posuere
-                elit, id auctor lectus nibh eget arcu. Sed nec nunc eros. Duis eu
-                urna in risus pellentesque hendrerit eleifend vitae nisl. Integer
-                magna elit, consectetur eget leo sed, dapibus consequat erat.
-                Vivamus lorem eros, blandit sit amet mi convallis, rhoncus
-                pulvinar enim. Suspendisse tincidunt porttitor nunc, a porta nisi
-                condimentum ac. Nunc ultrices, tellus id varius cursus, tortor
-                diam sollicitudin quam, et placerat turpis risus id mi. Nunc
-                euismod posuere tristique. Morbi vehicula suscipit est. Vestibulum
-                ante ipsum primis in faucibus orci luctus et ultrices posuere
-                cubilia curae;
-              </p>
-              <button class="price-btn type="button">Make a request</button>
-            </li>
-            <li class="price-item">
-              <img class="price-image"
-                src="./images/computer.jpg"
-                alt="smart"
-                width="375"
-                height="340"
-              />
-              <h2 class="price-subtitle">Smart</h2>
-              <p class="price-cost">$30/month</p>
-              <p class="price-article">Service without week</p>
-              <p class="price-fast">Speed of <span class="price-span">300</span> Mbit / s</p>
-              <p class="price-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-                scelerisque, neque eu pulvinar elementum, mauris nibh posuere
-                elit, id auctor lectus nibh eget arcu. Sed nec nunc eros. Duis eu
-                urna in risus pellentesque hendrerit eleifend vitae nisl. Integer
-                magna elit, consectetur eget leo sed, dapibus consequat erat.
-                Vivamus lorem eros, blandit sit amet mi convallis, rhoncus
-                pulvinar enim. Suspendisse tincidunt porttitor nunc, a porta nisi
-                condimentum ac. Nunc ultrices, tellus id varius cursus, tortor
-                diam sollicitudin quam, et placerat turpis risus id mi. Nunc
-                euismod posuere tristique. Morbi vehicula suscipit est. Vestibulum
-                ante ipsum primis in faucibus orci luctus et ultrices posuere
-                cubilia curae;
-              </p>
-              <button class="price-btn type="button">Make a request</button>
-            </li>
-            <li class="price-item">
-              <img class="price-image"
-                src="./images/app.jpg"
-                alt="prime"
-                width="375"
-                height="340"
-              />
-              <h2 class="price-subtitle">Prime</h2>
-              <p class="price-cost">$40/month</p>
-              <p class="price-article">New modern fiber optic network</p>
-              <p class="price-fast">Speed of <span class="price-span">1000</span> Mbit / s</p>
-              <p class="price-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-                scelerisque, neque eu pulvinar elementum, mauris nibh posuere
-                elit, id auctor lectus nibh eget arcu. Sed nec nunc eros. Duis eu
-                urna in risus pellentesque hendrerit eleifend vitae nisl. Integer
-                magna elit, consectetur eget leo sed, dapibus consequat erat.
-                Vivamus lorem eros, blandit sit amet mi convallis, rhoncus
-                pulvinar enim. Suspendisse tincidunt porttitor nunc, a porta nisi
-                condimentum ac. Nunc ultrices, tellus id varius cursus, tortor
-                diam sollicitudin quam, et placerat turpis risus id mi. Nunc
-                euismod posuere tristique. Morbi vehicula suscipit est. Vestibulum
-                ante ipsum primis in faucibus orci luctus et ultrices posuere
-                cubilia curae;
-              </p>
-              <button class="price-btn" type="button">Make a request</button>
-            </li>
+           <div class="price-container">
+              <li class="price-item">
+                <div class="price-block">
+                  <img
+                    class="price-image"
+                    src="./images/woomen.jpg"
+                    alt="standart"
+                    width="375"
+                    height="340"
+                  />
+                  <div class="price-block-text">
+                    <div class="subtitle-price">
+                      <h2 class="price-subtitle">Standart</h2>
+                      <p class="price-cost">$20/month</p>
+                    </div>
+                    <p class="price-article">The connection is always st</p>
+                    <p class="price-fast">
+                      Speed of <span class="price-span">100</span> Mbit / s
+                    </p>
+                    <p class="price-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Praesent scelerisque, neque eu pulvinar elementum, mauris
+                      nibh posuere elit, id auctor lectus nibh eget arcu. Sed nec
+                      nunc eros. Duis eu urna in risus pellentesque hendrerit
+                      eleifend vitae nisl. Integer magna elit, consectetur eget
+                      leo sed, dapibus consequat erat. Vivamus lorem eros, blandit
+                      sit amet mi convallis, rhoncus pulvinar enim. Suspendisse
+                      tincidunt porttitor nunc, a porta nisi condimentum ac. Nunc
+                      ultrices, tellus id varius cursus, tortor diam sollicitudin
+                      quam, et placerat turpis risus id mi. Nunc euismod posuere
+                      tristique. Morbi vehicula suscipit est. Vestibulum ante
+                      ipsum primis in faucibus orci luctus et ultrices posuere
+                      cubilia curae;
+                    </p>
+                    <button class="price-btn" type="button">
+                      Make a request
+                    </button>
+                  </div>
+                </div>
+              </li>
+  
+           </div>
+           <div class="price-container">
+              <li class="price-item">
+                <div class="price-block">
+                  <img
+                    class="price-image"
+                    src="./images/computer.jpg"
+                    alt="smart"
+                    width="375"
+                    height="340"
+                  />
+                  <div class="price-block-text">
+                    <div class="subtitle-price">
+                      <h2 class="price-subtitle">Smart</h2>
+                      <p class="price-cost">$30/month</p>
+                    </div>
+                    <p class="price-article">Service without week</p>
+                    <p class="price-fast">
+                      Speed of <span class="price-span">300</span> Mbit / s
+                    </p>
+                    <p class="price-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Praesent scelerisque, neque eu pulvinar elementum, mauris nibh
+                      posuere elit, id auctor lectus nibh eget arcu. Sed nec nunc
+                      eros. Duis eu urna in risus pellentesque hendrerit eleifend
+                      vitae nisl. Integer magna elit, consectetur eget leo sed,
+                      dapibus consequat erat. Vivamus lorem eros, blandit sit amet mi
+                      convallis, rhoncus pulvinar enim. Suspendisse tincidunt
+                      porttitor nunc, a porta nisi condimentum ac. Nunc ultrices,
+                      tellus id varius cursus, tortor diam sollicitudin quam, et
+                      placerat turpis risus id mi. Nunc euismod posuere tristique.
+                      Morbi vehicula suscipit est. Vestibulum ante ipsum primis in
+                      faucibus orci luctus et ultrices posuere cubilia curae;
+                    </p>
+                    <button class="price-btn" type="button">Make a request</button>
+                  </div>
+                </div>
+              </li>
+           </div>
+            <div class="price-container">
+              <li class="price-item">
+                <div class="price-block">
+                  <img
+                    class="price-image"
+                    src="./images/app.jpg"
+                    alt="prime"
+                    width="375"
+                    height="340"
+                  />
+                  <div class="price-block-text">
+                   <div class="subtitle-price">
+                      <h2 class="price-subtitle">Prime</h2>
+                      <p class="price-cost">$40/month</p>
+                   </div>
+                    <p class="price-article">New modern fiber optic network</p>
+                    <p class="price-fast">
+                      Speed of <span class="price-span">1000</span> Mbit / s
+                    </p>
+                    <p class="price-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Praesent scelerisque, neque eu pulvinar elementum, mauris nibh
+                      posuere elit, id auctor lectus nibh eget arcu. Sed nec nunc
+                      eros. Duis eu urna in risus pellentesque hendrerit eleifend
+                      vitae nisl. Integer magna elit, consectetur eget leo sed,
+                      dapibus consequat erat. Vivamus lorem eros, blandit sit amet mi
+                      convallis, rhoncus pulvinar enim. Suspendisse tincidunt
+                      porttitor nunc, a porta nisi condimentum ac. Nunc ultrices,
+                      tellus id varius cursus, tortor diam sollicitudin quam, et
+                      placerat turpis risus id mi. Nunc euismod posuere tristique.
+                      Morbi vehicula suscipit est. Vestibulum ante ipsum primis in
+                      faucibus orci luctus et ultrices posuere cubilia curae;
+                    </p>
+                    <button class="price-btn" type="button">Make a request</button>
+                  </div>
+                </div>
+              </li>
+            </div>
           </ul>
         </div>
       </section>
