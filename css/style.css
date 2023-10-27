@@ -219,4 +219,43 @@ position: relative;
 
 
 /* footer */
+.footer{
+  background-color: #5f0a61;
 
+} 
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 90px 0;
+}
+.footer-logo {
+  color: #FFF;
+  font-family: Reem Kufi, sans-serif;
+font-size: 30px;
+line-height: 1.5; /* 45px */
+text-transform: uppercase;
+
+}
+.footer-list {
+  display: flex;
+  align-items: center;  
+  gap: 50px;
+  
+}
+.footer-item {
+}
+.footer-link {
+}
+.footer-icon {
+  fill: #FFF;
+}
+.footer-tel {
+}
+.footer-tel-link {
+color: #FFF;
+text-align: right;
+font-size: 30px;
+font-weight: 700;
+line-height: 1.1; /* 33px */
+}
