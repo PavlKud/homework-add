@@ -227,7 +227,7 @@ position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 90px 0;
+  padding: 90px 40px;
 }
 .footer-logo {
   color: #FFF;
@@ -244,12 +244,20 @@ text-transform: uppercase;
   
 }
 .footer-item {
+
 }
 .footer-link {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
 }
+
 .footer-icon {
   fill: #FFF;
 }
+
+
 .footer-tel {
 }
 .footer-tel-link {
